@@ -11,18 +11,18 @@ Author - Samiran Das
 
 
 Fund Loan - <br>
-clcommon__Holiday_Treatment_Setup__c
-loan__Fee__c
-loan__Fee_Junction__c
-loan__MF_Account__c
-loan__Office_Name__c
-Users
-loan__Branch_Loan_Product__c
-loan__Funder__c
-loan__Funder_Portfolio__c
-loan__Center__c
-loan__Loan_Product__c
-loan__Loan_Product_Cycle__c
-loan__Amortization_Setup__c
-loan__Loan_Approval_Prerequisites__c
+clcommon__Holiday_Treatment_Setup__c <br>
+loan__Fee__c <br>
+loan__Fee_Junction__c <br>
+loan__MF_Account__c <br>
+loan__Office_Name__c <br>
+Users <br>
+loan__Branch_Loan_Product__c <br>
+loan__Funder__c <br>
+loan__Funder_Portfolio__c <br>
+loan__Center__c <br>
+loan__Loan_Product__c <br>
+loan__Loan_Product_Cycle__c <br>
+loan__Amortization_Setup__c <br>
+loan__Loan_Approval_Prerequisites__c <br>
 thanks.
