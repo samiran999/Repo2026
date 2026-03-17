@@ -8,3 +8,13 @@ Author - Samiran Das
 4. clear
 5. Clone git repository in our local machine --> git clone (paste the https link got from Repo -> <> Code section) <_|
 6. 
+
+
+Fund Loan - 
+clcommon__Holiday_Treatment_Setup__c
+loan__Fee__c
+loan__Fee_Junction__c
+loan__MF_Account__c
+loan__Office_Name__c
+Users
+loan__User_Branch_Info__c
