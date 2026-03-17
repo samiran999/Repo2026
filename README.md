@@ -17,4 +17,7 @@ loan__Fee_Junction__c
 loan__MF_Account__c
 loan__Office_Name__c
 Users
-loan__User_Branch_Info__c
+loan__Branch_Loan_Product__c
+loan__Funder__c
+loan__Funder_Portfolio__c
+loan__Center__c
