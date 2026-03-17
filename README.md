@@ -21,3 +21,8 @@ loan__Branch_Loan_Product__c
 loan__Funder__c
 loan__Funder_Portfolio__c
 loan__Center__c
+loan__Loan_Product__c
+loan__Loan_Product_Cycle__c
+loan__Amortization_Setup__c
+loan__Loan_Approval_Prerequisites__c
+thanks.
