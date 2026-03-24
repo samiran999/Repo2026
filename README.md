@@ -16,6 +16,7 @@ Author - Samiran Das
 12. Pull all data from Main/Origin / Git --> git pull
 13. Add changes or stage --> git add <file name or . for all>
 14. Commit --> git commit -m "<Comment>"
+15. Push changes from Local to Remote --> git push origin main
 
 
 
