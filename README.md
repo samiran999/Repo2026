@@ -7,11 +7,14 @@ Author - Samiran Das
 3. git --version
 4. clear
 5. Clone git repository in our local machine --> git clone (paste the https link got from Repo -> <> Code section) <_|
-6. Change Directory or go into an folder - > CD folderName
+6. Change Directory or go into a folder - > CD folderName
 7. View all files --> ls
 8. view hidden files --> ls -a
 9. Status of your brunch -> git status
 10. To restore name --> get restore <fileName>
+11. fetch all data --> git fetch
+12. Pull all data from Main/Origin / Git --> git pull
+
 
 
 
