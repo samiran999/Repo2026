@@ -10,6 +10,42 @@ Author - Samiran Das
 6. 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Fund Loan - <br>
 clcommon__Holiday_Treatment_Setup__c <br>
 loan__Fee__c <br>
