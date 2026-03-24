@@ -17,6 +17,21 @@ Author - Samiran Das
 13. Add changes or stage --> git add <file name or . for all>
 14. Commit --> git commit -m "<Comment>"
 15. Push changes from Local to Remote --> git push origin main
+16. Move out from Directory --> cd ..
+17. New Repo / Folder --> mkdir <Folder Name>
+18. Make the local repo as Git Repo --> git init
+19. Add Remote repo o the github / repository --> create a new Repo on Git --> git remote add origin < -link- >
+20. Verify Remote / check if the git setup was ok or not --> git remote -v
+21. Check brunch --> git branch
+22. default branch --> Master
+23. change branch name --> git branch -M <Name>
+24.  future sort form for push --> git push -u origin main (It will always push in main from future)
+
+Branch Commands
+1. Check brunch --> git branch
+2. change branch name --> git branch -M <Name>
+
+
 
 
 
