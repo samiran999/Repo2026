@@ -30,7 +30,24 @@ Author - Samiran Das
 Branch Commands
 1. Check brunch --> git branch
 2. change branch name --> git branch -M <Name>
+3. Create branch --> git checkout -b <New Branch Name>
+4. Switch Branch --> git checkout <Branch Name>
+5. Delete Branch --> git branch -d <Branch Name>
+6. Compare branch --> git diff <Other Branch>
+7. marge changes with other branch --> git marge <Other Branch Name>
+8. At the time of remote pull a change present already in your branch then try using marge or replace 
+--> git config pull.rebase false (for Marge / make it true for replace)
+9. Directly Merge 2 branches from vs code --> git merge <Destinaion branch>
+10. If we have changes on file and made git add after that if we want to reset --> git Reset <file name>
 
+Undo
+11. If we have done 1 commit and want to do reset the changes --> git reset HEAD~1
+12. Check commit log --> git log --> to quite --> Press Q
+13. For doing Multiple commit undoing --> git reset <HASH / take the id from Log>
+14. --> git reset --hard <HASH / take the id from Log> --> it will remove the changes not only from Git also from the Vs code.
+
+How to make project copy or Fork ---
+Open the repo --> Click on Fork --> Create Fork
 
 
 
