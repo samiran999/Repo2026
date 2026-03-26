@@ -11,7 +11,7 @@ Author - Samiran Das
 7. View all files --> ls
 8. view hidden files --> ls -a
 9. Status of your brunch -> git status
-10. To restore name --> get restore <fileName>
+10. To restore name --> git restore <fileName>
 11. fetch all data --> git fetch
 12. Pull all data from Main/Origin / Git --> git pull
 13. Add changes or stage --> git add <file name or . for all>
