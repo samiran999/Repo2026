@@ -12,8 +12,8 @@ Author - Samiran Das
 8. view hidden files --> ls -a
 9. Status of your brunch -> git status
 10. To restore name --> git restore <fileName>
-11. fetch all data --> git fetch
-12. Pull all data from Main/Origin / Git --> git pull
+11. fetch all data --> git fetch [Downloads changes from the remote (GitHub) but does NOT merge them into your local branch. Your working files stay untouched. You're just "checking what's new."]
+12. Pull all data from Main/Origin / Git --> git pull [Downloads changes AND automatically merges them into your current branch. It's essentially git fetch + git merge in one command.]
 13. Add changes or stage --> git add <file name or . for all>
 14. Commit --> git commit -m "<Comment>"
 15. Push changes from Local to Remote --> git push origin main
@@ -25,7 +25,11 @@ Author - Samiran Das
 21. Check brunch --> git branch
 22. default branch --> Master
 23. change branch name --> git branch -M <Name>
-24.  future sort form for push --> git push -u origin main (It will always push in main from future)
+24. future sort form for push --> git push -u origin main (It will always push in main from future)
+25. git stash --> Temporarily saves uncommitted changes so you can switch branches cleanly.
+26. git stash        # saves changes
+27. git stash pop    # restores them back
+28. git stash list   # see all stashed changes
 
 Branch Commands
 1. Check brunch --> git branch
@@ -45,6 +49,11 @@ Undo
 12. Check commit log --> git log --> to quite --> Press Q
 13. For doing Multiple commit undoing --> git reset <HASH / take the id from Log>
 14. --> git reset --hard <HASH / take the id from Log> --> it will remove the changes not only from Git also from the Vs code.
+15. git cherry-pick <commit-hash> lets you pick that specific commit and apply it wherever you are (Imagine you have a bug fix commit on your feature branch, and you want just that one commit on main — without merging the whole branch)
+16. git reset --soft HEAD~1   # undoes commit, keeps changes staged
+18. git reset --mixed HEAD~1  # undoes commit, keeps changes unstaged (default)
+19. git reset --hard HEAD~1   # undoes commit, DELETES changes permanently ⚠️
+20. git revert <commit-hash> — Instead of erasing history, it creates a brand new commit that undoes the changes of a previous commit. History is preserved!
 
 How to make project copy or Fork ---
 Open the repo --> Click on Fork --> Create Fork
