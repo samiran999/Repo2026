@@ -45,18 +45,18 @@ Branch Commands
 10. If we have changes on file and made git add after that if we want to reset --> git Reset <file name>
 
 Undo <br>
-11. If we have done 1 commit and want to do reset the changes --> git reset HEAD~1
-12. Check commit log --> git log --> to quite --> Press Q
-13. For doing Multiple commit undoing --> git reset <HASH / take the id from Log>
-14. --> git reset --hard <HASH / take the id from Log> --> it will remove the changes not only from Git also from the Vs code.
-15. git cherry-pick <commit-hash> lets you pick that specific commit and apply it wherever you are (Imagine you have a bug fix commit on your feature branch, and you want just that one commit on main — without merging the whole branch)
-16. git reset --soft HEAD~1   # undoes commit, keeps changes staged
-18. git reset --mixed HEAD~1  # undoes commit, keeps changes unstaged (default)
-19. git reset --hard HEAD~1   # undoes commit, DELETES changes permanently ⚠️
-20. git revert <commit-hash> — Instead of erasing history, it creates a brand new commit that undoes the changes of a previous commit. History is preserved!
+11. If we have done 1 commit and want to do reset the changes --> git reset HEAD~1 <br>
+12. Check commit log --> git log --> to quite --> Press Q <br>
+13. For doing Multiple commit undoing --> git reset <HASH / take the id from Log> <br>
+14. --> git reset --hard <HASH / take the id from Log> --> it will remove the changes not only from Git also from the Vs code.<br>
+15. git cherry-pick <commit-hash> lets you pick that specific commit and apply it wherever you are (Imagine you have a bug fix commit on your feature branch, and you want just that one commit on main — without merging the whole branch)<br>
+16. git reset --soft HEAD~1   # undoes commit, keeps changes staged<br>
+18. git reset --mixed HEAD~1  # undoes commit, keeps changes unstaged (default)<br>
+19. git reset --hard HEAD~1   # undoes commit, DELETES changes permanently ⚠️<br>
+20. git revert <commit-hash> — Instead of erasing history, it creates a brand new commit that undoes the changes of a previous commit. History is preserved!<br>
 
-How to make project copy or Fork ---
-Open the repo --> Click on Fork --> Create Fork
+How to make project copy or Fork ---<br>
+Open the repo --> Click on Fork --> Create Fork<br>
 
 
 
