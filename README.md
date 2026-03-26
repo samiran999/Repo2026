@@ -45,7 +45,7 @@ Branch Commands
 10. If we have changes on file and made git add after that if we want to reset --> git Reset <file name>
 
 Undo <br>
-11. If we have done 1 commit and want to do reset the changes --> git reset HEAD~1 <br>
+11. If we have done 1 commit and want to do reset the changes --> git reset HEAD1 <br>
 12. Check commit log --> git log --> to quite --> Press Q <br>
 13. For doing Multiple commit undoing --> git reset <HASH / take the id from Log> <br>
 14. --> git reset --hard <HASH / take the id from Log> --> it will remove the changes not only from Git also from the Vs code.<br>
