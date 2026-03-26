@@ -44,7 +44,7 @@ Branch Commands
 9. Directly Merge 2 branches from vs code --> git merge <Destinaion branch>
 10. If we have changes on file and made git add after that if we want to reset --> git Reset <file name>
 
-Undo
+Undo <br>
 11. If we have done 1 commit and want to do reset the changes --> git reset HEAD~1
 12. Check commit log --> git log --> to quite --> Press Q
 13. For doing Multiple commit undoing --> git reset <HASH / take the id from Log>
