@@ -201,3 +201,11 @@ List<Contact> contacts = [SELECT Id FROM Contact WHERE AccountId IN :accountIds]
 
 
 --------------------------------------------------------------------------
+
+5. No insert & Update operation in before trigger
+6. So if a user tries to close an account and your before trigger catches it and calls `addError()`, the account won't save and the user sees the error message you provided.
+7. In 1 Transaction only 100 SOQL Query can be done, sp instead use List with In statement
+8. Set is better than List as it removes duplicate
+9. In 1 Transaction Max 150 DML is allowed, thats why never do update in loop instead do a bulk update
+10. You don't need dml in before update
+11. rigger.Old is alwys read only
